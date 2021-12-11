@@ -14,12 +14,12 @@ var trace1 = {
   x: data.map(row => row.greekSearchResults),
   y: data.map(row => row.greekName),
   text: data.map(row => row.greekName),
-  name: "GreekUpdate",
+  name: "Greek",
   type: "bar",
   orientation: "h"
 };
 
-// data update update update
+// data
 var data = [trace1];
 
 // Apply the group bar mode to the layout
